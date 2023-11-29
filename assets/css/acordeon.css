@@ -1,0 +1,81 @@
+.acordeon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: background 0.250s 0s;
+}
+
+.acordeon .open,
+.acordeon:hover {
+    background-color: #55569e;
+    border: 1px solid#55569e;
+}
+
+.acordeon .trigger {
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: inline-flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.acordeon .trigger span {
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.acordeon .content {
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.acordeon.open .content {
+    display: inline-block;
+    max-height: 100%;
+}
+
+.arrow-up {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 0.4rem;
+    transform: rotate(45deg);
+    align-self: center;
+    cursor: pointer;
+    transition: transform 0.3s 0s;
+}
+
+.acordeon.open .trigger .arrow-up {
+    transform: rotate(-135deg);
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-left: 0;
+    list-style: none;
+}
+
+
+@media screen and (min-width: 330px) {
+
+    .language{
+       gap: .3rem
+    }
+
+}

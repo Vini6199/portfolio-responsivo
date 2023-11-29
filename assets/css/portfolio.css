@@ -1,0 +1,41 @@
+
+.portfolio {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.portfolio li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 2rem;
+}
+
+.portfolio li .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.portfolio li .title img {
+    max-width: 1.5rem;
+    margin-right: .5rem;
+}
+
+.portfolio li a {
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.portfolio li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+.skills {
+    margin-left: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.hard-skills {
+    margin-bottom: 4rem;
+}
+
+.soft-skills ul,
+.hard-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-self: start;
+    gap: 2rem;
+}
+
+.hard-skills ul li img {
+    max-width: 6rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.soft-skills ul {
+    justify-content: flex-start;
+    margin: 2rem;
+}
