@@ -23,9 +23,11 @@
     max-width: 6rem;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-right: 3rem;
 }
 
 .soft-skills ul {
     justify-content: flex-start;
-    margin: 2rem 0
+    margin: 2rem 0;
+    margin-right: 3rem;
 }
