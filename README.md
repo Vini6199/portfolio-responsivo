@@ -5,5 +5,5 @@ Criei meu portfólio visando responsividade para os diversos aparelhos que possa
 <br><br>
 Deixo uma pré-visualização:
 
-<img align="center" src="https://github.com/Vini6199/portfolio-responsivo/assets/140624273/3c0fab3b-6f80-42a8-b5e6-67c70a67e1fd](https://github.com/Vini6199/portfolio-responsivo/issues/5"></img>
+<img align="center" src="https://github.com/Vini6199/portfolio-responsivo/issues/6#issue-2905657770"></img>
 
