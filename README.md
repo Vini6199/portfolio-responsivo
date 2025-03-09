@@ -5,6 +5,5 @@ Criei meu portfólio visando responsividade para os diversos aparelhos que possa
 <br><br>
 Deixo uma pré-visualização:
 
-<img align="center" src="![image](https://github.com/user-attachments/assets/17dfa670-b416-470e-92eb-b75945c9d7bf)
-"></img>
+![image](https://github.com/user-attachments/assets/3bd44b9a-6792-41a5-b369-0e76c307d909)
 
